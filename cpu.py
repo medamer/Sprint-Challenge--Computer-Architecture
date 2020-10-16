@@ -84,7 +84,7 @@ class CPU:
 
         print(f"TRACE: %02X | %02X %02X %02X |" % (
             self.pc,
-            self.fl,
+            self.flg,
             #self.ie,
             self.ram_read(self.pc),
             self.ram_read(self.pc + 1),
